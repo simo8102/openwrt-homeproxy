@@ -18,7 +18,9 @@ jobs:
         arch:
           - aarch64_cortex-a53
           - x86_64
-          - mipsle
+          - mipsel_24kc
+          - ramips-mt7621
+          - ramips-mt7620
 
     steps:
       - uses: actions/checkout@main
