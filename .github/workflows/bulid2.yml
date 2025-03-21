@@ -18,6 +18,7 @@ jobs:
         arch:
           - aarch64_cortex-a53
           - x86_64
+          - linux-mips-softfloat
 
     steps:
       - uses: actions/checkout@main
